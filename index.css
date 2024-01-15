@@ -15,6 +15,8 @@
     flex-direction: row-reverse;
     align-items: flex-end;
     align-content: flex-end;
+
+    backdrop-filter: brightness(10%);
   
   }
 
@@ -22,7 +24,7 @@
     height: 40px;
   }
 
-  .bigbend-text{
+  .header-text{
     
     font-size: 6rem;
     color: #F9F8EB;
@@ -36,6 +38,7 @@
     margin-top: 0;
     flex-shrink: 0;
     flex-grow: 0;
+    text-shadow: 3px 3px #000000b0;
     
     
 }
@@ -53,7 +56,7 @@
 }
 
 .feature-bg {
-    
+    background-color: #176B87;
     border-radius: 10px;
 }
 
@@ -63,6 +66,8 @@
     height:50px;
     filter: brightness(0) invert(1);
 }
+
+
 
 .footer {
 
