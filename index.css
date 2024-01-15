@@ -1,0 +1,72 @@
+.header {
+
+    background-image: url("./images/headerphoto.jpg");
+    background-color: A7D7C5;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start; */
+    color: F9F8EB;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    align-content: flex-end;
+  
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .bigbend-text{
+    
+    font-size: 6rem;
+    color: #F9F8EB;
+    font-weight: 500;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Black Ops One', system-ui;
+    letter-spacing: -3px;
+    line-height: 90px;
+    margin-right: 30px;
+    margin-top: 0;
+    flex-shrink: 0;
+    flex-grow: 0;
+    
+    
+}
+
+.logo {
+    color: #DAFFFB;
+
+    background-color: #04364A;
+    text-transform: uppercase;
+    font-family: 'Black Ops One', system-ui;
+    text-align: center;
+    font-size: 15rem;
+    line-height: 180px;
+
+}
+
+.feature-bg {
+    
+    border-radius: 10px;
+}
+
+.feature-custom {
+    border-radius: 10px;
+    padding: 8px;
+    height:50px;
+    filter: brightness(0) invert(1);
+}
+
+.footer {
+
+    color: #DAFFFB;
+    background-color: #04364A;
+
+}
