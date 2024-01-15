@@ -1,0 +1,27 @@
+.log-bg{
+    background-color: #176b87;
+}
+
+.log-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    
+}
+
+.login-box{
+    padding-top: 80px;;
+    font-family: 'League Spartan', sans-serif;
+    color: #DAFFFB;
+    background-color: #04364A;
+    
+    height: 450px;
+    border-radius: 40px;
+    margin: 100px;
+}
+
+.form-hint {
+    color: gray;
+}
