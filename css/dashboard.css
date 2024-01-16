@@ -1,12 +1,71 @@
 
+.dash-main{
+    /* display: flex;
+    
+    justify-content: flex-end; */
+}
 
+.menu-box{
+    /* display: flex;
+    flex-direction: row; */
+}
+
+#side-btn{
+    width: 30px;
+    border-radius: 0px;
+}
+
+#side-btn:hover{
+    background-color: #04364A;
+    color: #04364A;
+}
 .side-menu {
     
     background-color: #176B87;
     height: 100vh;
+    z-index: 1;
 }
 
 .menu-txt {
     color: #DAFFFB;
 
+}
+
+.over-lay{
+    z-index: 1;
+}
+
+.dash-table{
+
+}
+
+.dash-header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #04364A;
+    color: white;
+    /* padding: 5px; */
+    text-align: center;
+    font-size: 2rem;
+    width:70vw;
+}
+
+.dash-row {
+    border: 2px solid #04364A;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width:70vw;
+    
+}
+
+.tables {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center; */
+}
+
+.table-w {
+    width: 70vw;
 }
