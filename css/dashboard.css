@@ -21,9 +21,18 @@
 }
 .side-menu {
     
+    
     background-color: #176B87;
     height: 100vh;
     z-index: 1;
+}
+
+.dense{
+
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -25px;
+
 }
 
 .menu-txt {
