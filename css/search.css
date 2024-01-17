@@ -1,0 +1,34 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    background-image: url("../images/map2.png");
+    background-color: #DAFFFB;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    color: #DAFFFB;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: -2px 2px  #0000004d;
+}
+
+.search-box {
+    background-color: #04364A;
+    border-radius: 10px;
+    height: 500px;
+    color: #DAFFFB;
+    font-size: 1.2rem;
+    
+}
+
+#serach-form {
+    color: #DAFFFB;
+    font-size: 2rem;
+
+}
