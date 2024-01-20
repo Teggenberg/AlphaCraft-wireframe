@@ -90,36 +90,36 @@
                         <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
                           Home
                         </button>
-                        <div class="collapse show" id="home-collapse">
+                        <!-- <div class="collapse show" id="home-collapse">
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small menu-txt">
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Project Calendar</a></li>
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Customers</a></li>
                             
                           </ul>
-                        </div>
+                        </div> -->
                       </li>
                       <li class="mb-1">
                         <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                          Projects
+                          Cases +
                         </button>
                         <div class="collapse" id="dashboard-collapse" style="">
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Leads</a></li>
-                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Scheduled</a></li>
-                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Completed</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New Case</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">All Cases</a></li>
+                            <!-- <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Completed</a></li> -->
                             
                           </ul>
                         </div>
                       </li>
                       <li class="mb-1">
                         <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-                          Orders
+                          Orders +
                         </button>
                         <div class="collapse" id="orders-collapse">
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New</a></li>
-                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Processed</a></li>
-                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New Order</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">All Orders</a></li>
+                            <!-- <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a></li> -->
                             
                           </ul>
                         </div>
@@ -127,7 +127,7 @@
                       <li class="border-top my-3"></li>
                       <li class="mb-1">
                         <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-                          Account
+                          Account +
                         </button>
                         <div class="collapse" id="account-collapse" style="">
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
@@ -165,7 +165,7 @@
 
                             <div class="row table-w">
                                 <div class="col-12 py-3">
-                                    <div class="dash-header">Upcoming Projects</div>
+                                    <div class="dash-header">Open Cases</div>
                                         <div class="container-fluid dash-row">
 
                                             <div class="row">
@@ -265,21 +265,36 @@
 
                             <div class="row table-w">
                                 <div class="col-12 py-3">
-                                    <div class="dash-header">Table</div>
+                                    <div class="dash-header">Clients</div>
                                         <div class="container-fluid dash-row">
 
                                             <div class="row">
 
                                                 <div class="col-4 line">
-                                                    <a href="#">11023938</a>
+                                                    <a href="#">Robert Smith</a>
                                                 </div>
 
                                                 <div class="col-4 line">
-                                                    client name here
+                                                    <a href="#">555-555-5555</a>
                                                 </div>
                                                 
                                                 <div class="col-4 line">
-                                                    status here
+                                                    <a href="#">RobertSmith@gmail.com</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+
+                                                <div class="col-4 line">
+                                                    <a href="#">Peter Parker</a>
+                                                </div>
+
+                                                <div class="col-4 line">
+                                                    <a href="#">555-555-5555</a>
+                                                </div>
+                                                
+                                                <div class="col-4 line">
+                                                    <a href="#">Spiderboy@gmail.com</a>
                                                 </div>
                                             </div>
 
@@ -325,66 +340,6 @@
     
 
 
-<!--     <div class="flex-shrink-0 p-3 side-menu" style="width: 280px;">
-        <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
-          <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-          <span class="fs-5 fw-semibold menu-txt">Kimmy Gibbler</span>
-        </a>
-        <ul class="list-unstyled ps-0">
-          <li class="mb-1">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-              Home
-            </button>
-            <div class="collapse show" id="home-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small menu-txt">
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-              Dashboard
-            </button>
-            <div class="collapse" id="dashboard-collapse" style="">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Weekly</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Monthly</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Annually</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-              Orders
-            </button>
-            <div class="collapse" id="orders-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Processed</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Returned</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="border-top my-3"></li>
-          <li class="mb-1">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-              Account
-            </button>
-            <div class="collapse" id="account-collapse" style="">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New...</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Settings</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-    </div> -->
 
     
 
