@@ -115,3 +115,7 @@
     width: 80vw;
 
 }
+
+.new-val{
+    z-index: 1;
+}
