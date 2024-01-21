@@ -104,3 +104,14 @@
 .table-w {
     width: 70vw;
 }
+
+.filter-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #04364A;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80vw;
+
+}

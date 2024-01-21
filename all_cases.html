@@ -87,9 +87,12 @@
                     </a>
                     <ul class="list-unstyled ps-0">
                       <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
-                          Home
-                        </button>
+                        <a href="./dashboard.html">
+                          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false" href="./dashboard.html">
+                              Home
+                          </button>
+
+                        </a>
                         <!-- <div class="collapse show" id="home-collapse">
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small menu-txt">
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Project Calendar</a></li>
@@ -160,12 +163,51 @@
                 <div class="container-fluid ">
 
 
-                    <div class="row ">
+                    <div class="row table-w my-3">
                         <div calss="container-fluid tables">
+
+                          <div class="col-12 filter-bar">
+
+                            <div >
+                              <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Sort By
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Date</a>
+                                  <a class="dropdown-item" href="#">Satus</a>
+                                  <a class="dropdown-item" href="#">Bid Amount</a>
+                                </div>
+                              </div>
+
+                            </div>
+
+                            <div >
+                              <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Filter By
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Completed</a>
+                                  <a class="dropdown-item" href="#">Scheduled</a>
+                                  <a class="dropdown-item" href="#">Bid</a>
+                                </div>
+                              </div>
+
+                            </div>
+
+                            <div class="form-floating form-hint">
+                              <input type="password" class="form-control" id="floatingPassword" placeholder="Search by Customer">
+                              <label for="floatingPassword">Search by Client</label>
+                            </div>
+
+                          </div>
+
+                          
 
                             <div class="row table-w">
                                 <div class="col-12 py-3">
-                                    <div class="dash-header">All Cases</div>
+                                    <div class="dash-header">Cases</div>
                                         <div class="container-fluid dash-row">
 
                                             <div class="row">
