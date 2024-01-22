@@ -119,3 +119,21 @@
 .new-val{
     z-index: 1;
 }
+
+.lowes-button{
+    margin-top: 75px;
+    font-size: 3rem;
+    border-radius: 10px;
+    background-color: #04364A;
+    
+
+}
+
+.lowes{
+    height: 80px;
+}
+
+.or {
+    text-align: center;
+    font-size: 2rem;
+}
