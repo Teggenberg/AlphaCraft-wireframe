@@ -82,75 +82,77 @@
 
                 <div class="flex-shrink-0 p-3 side-menu" id="sb-dash" style="width: 280px;">
                     <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
-                      <!-- <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg> -->
                       <span class="fs-5 fw-semibold menu-txt">Kimmy Gibbler</span>
                     </a>
                     <ul class="list-unstyled ps-0">
-                      <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
-                          Home
-                        </button>
-                        <!-- <div class="collapse show" id="home-collapse">
-                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small menu-txt">
-                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Project Calendar</a></li>
-                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Customers</a></li>
-                            
-                          </ul>
-                        </div> -->
-                      </li>
-                      <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                          Cases +
-                        </button>
-                        <div class="collapse" id="dashboard-collapse" style="">
-                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="./newcase.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New Case</a></li>
-                            <li><a href="./all_cases.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">All Cases</a></li>
-                            <!-- <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Completed</a></li> -->
-                            
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-                          Orders +
-                        </button>
-                        <div class="collapse" id="orders-collapse">
-                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="./neworder.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New Order</a></li>
-                            <li><a href="./allorders.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">All Orders</a></li>
-                            <!-- <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a></li> -->
-                            
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#clients-collapse" aria-expanded="false">
-                          Clients +
-                        </button>
-                        <div class="collapse" id="clients-collapse">
-                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="./newclient.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New Client</a></li>
-                            <li><a href="./allclients.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">All Clients</a></li>
-                            <!-- <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a></li> -->
-                            
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="border-top my-3"></li>
-                      <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-                          Account +
-                        </button>
-                        <div class="collapse" id="account-collapse" style="">
-                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            
-                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Financial</a></li>
-                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
-                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
-                          </ul>
-                        </div>
-                      </li>
+
+                        <li class="mb-1">
+                            <a href="./dashboard.html">
+                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false" href="./dashboard.html">
+                                    Home
+                                </button>
+                            </a>
+                        </li>
+
+                        <li class="mb-1">
+                            <a href="./calendar.html">
+                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false" href="./dashboard.html">
+                                    Calendar
+                                </button>
+                            </a>
+                        </li>
+
+                        <li class="mb-1">
+                            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                                Cases +
+                            </button>
+                            <div class="collapse" id="dashboard-collapse" style="">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="./newcase.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New Case</a></li>
+                                    <li><a href="./all_cases.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">All Cases</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="mb-1">
+                            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                                Orders +
+                            </button>
+                            <div class="collapse" id="orders-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="./neworder.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New Order</a></li>
+                                    <li><a href="./allorders.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">All Orders</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="mb-1">
+                            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#clients-collapse" aria-expanded="false">
+                                Clients +
+                            </button>
+                            <div class="collapse" id="clients-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="./newclient.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New Client</a></li>
+                                    <li><a href="./allclients.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">All Clients</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="border-top my-3"></li>
+
+                        <li class="mb-1">
+                            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed menu-txt" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                                Account +
+                            </button>
+                            <div class="collapse" id="account-collapse" style="">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Financial</a></li>
+                                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
+                                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
                     </ul>
 
                 </div>
