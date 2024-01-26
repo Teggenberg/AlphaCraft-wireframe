@@ -76,6 +76,12 @@
 
 }
 
+.quote-text{
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+}
+
 
 @media (max-width: 992px){
 

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Alpha Craft</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./index.css" >
+  <link rel="stylesheet" href="./css/dashboard.css" >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+  <style>
+    .nav-custom {
+
+        background-color: #04364A;
+    }
+
+    
+
+    
+  </style>
+</head>
+
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top nav-custom" aria-label="Custom navbar">
+        <div class="container-fluid nav-custom">
+
+          <a class="navbar-brand nav-custom" href="#"><div><img src="./images/logo.png" class="logo"  alt="T E logo"></div></a>
+
+          <button class="navbar-toggler nav-custom enl-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon nav-custom enl-lines"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 nav-custom">
+              
+              <li class="nav-item nav-custom mx-3">
+                <a class="nav-link nav-custom nav-text" aria-current="page" href="./index.html">Home</a>
+              </li>
+
+              <li class="nav-item dropdown nav-custom hide">
+                <a class="nav-link dropdown-toggle nav-custom" href="#" data-bs-toggle="dropdown" aria-expanded="false">Contractors</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./search.html">Find Contractors</a></li>
+                  <li><a class="dropdown-item" href="./newquote.html">Get a Quote</a></li>
+                </ul>
+              </li>
+
+              <li >
+                <a class="nav-link nav-text" href="./projects.html">Pro Services</a>
+              </li>
+
+              <li class="nav-item dropdown nav-custom hide">
+                <a class="nav-link dropdown-toggle nav-custom" href="#" data-bs-toggle="dropdown" aria-expanded="false">Alpha Craft</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                  <li><a class="dropdown-item" href="#">Careers</a></li>
+                  <li><a class="dropdown-item" href="./login.html">Log-in</a></li>
+                  <li><a class="dropdown-item" href="./signup.html">Sign-up</a></li>
+                </ul>
+              </li>
+
+            </ul>
+            
+          </div>
+
+          <div class="nav-item col-md-3 text-end nav-buttons">
+            <a href="./login.html"><button type="button" class="btn btn-secondary me-2 ">Login</button></a>
+            <a href="./signup.html"><button type="button" class="btn btn-primary">Sign-up</button></a>
+          </div>
+
+        </div>
+
+    </nav>
+
+    <div>
+        <h2 class="quote-text mt-5">This request will be sent to all available contractors in your area</h2>
+        <h3 class="quote-text">Most quotes available in moments, *additoinal information may be needed.</h3>
+      </div>
+
+
+
+      <div class="container dash-header my-3 p-bottom">
+        <span> Quote Form</span>
+
+        <div class="row">
+            <div class="col ">
+                <div class="container  ">
+                    <div class="row ">
+
+                        <div class="col-3 p-section py-3">
+                            <span>Name:</span>
+
+                        </div>
+                        <div class="col-9 ">
+                            
+                            <div class=" py-3 ">
+                                <input class="form-control new-val"  placeholder="">
+                                
+                            </div>
+
+                        </div>
+
+                        <div class="col-3 p-section py-3">
+                            <span>Email:</span>
+
+                        </div>
+                        <div class="col-9 ">
+                            
+                            <div class=" py-3 ">
+                                <input class="form-control new-val"  placeholder="">
+                                
+                            </div>
+
+                        </div>
+
+                        <div class="col-3 p-section py-3">
+                            <span>Phone:</span>
+
+                        </div>
+                        <div class="col-9 ">
+                            
+                            <div class=" py-3 ">
+                                <input class="form-control new-val"  placeholder="">
+                                
+                            </div>
+
+                        </div>
+
+                       
+
+                        <div class="col-3 p-section py-3">
+                            <span>Completion Date:</span>
+
+                        </div>
+                        <div class="col-9 ">
+                            
+                            <div class=" py-3 ">
+                                <input class="form-control new-val"  placeholder="When do you need the job done by">
+                                
+                            </div>
+
+                        </div>
+
+                        <div class="col-3 p-section py-3">
+                            <span>Details:</span>
+
+                        </div>
+                        <div class="col-9 ">
+                            
+                            <div class=" py-3">
+                                <textarea class="form-control new-val" rows="3" placeholder=""></textarea>
+                                
+                            </div>
+
+                        </div>
+
+                        <div class="col-3 p-section py-3">
+                            <span>Files/photos:</span>
+
+                        </div>
+                        <div class="col-9 ">
+                            
+                            <div class=" py-3">
+                                <input type="file" class="form-control new-val"  placeholder="Estimated $">
+                                
+                            </div>
+
+                        </div>
+
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    <div class="row " id="p-bottom">
+    <div class="col p-3">
+        <a href="./dashboard.html" class="btn btn-primary w-100 py-2 " type="submit">Submit</a>
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      </body>

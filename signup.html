@@ -36,42 +36,56 @@
 
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top nav-custom" aria-label="Custom navbar">
-        <div class="container-fluid nav-custom">
-          <a class="navbar-brand nav-custom" href="#"><div><img src="./images/logo.png" class="logo"  alt="T E logo"></div></a>
-          <button class="navbar-toggler nav-custom enl-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon nav-custom enl-lines"></span>
-            </button>
-            
-    
-          <div class="collapse navbar-collapse" id="navbarsExample04">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0 nav-custom">
-              
-              <li class="nav-item nav-custom mx-3">
-                <a class="nav-link nav-custom nav-text" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link nav-text" href="./projects.html">Contractors</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link nav-text" href="./projects.html">Pro Services</a>
-              </li>
-              
-              
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top nav-custom" aria-label="Custom navbar">
+    <div class="container-fluid nav-custom">
 
-              <li class="nav-item dropdown nav-custom hide">
-                <a class="nav-link dropdown-toggle nav-custom" href="#" data-bs-toggle="dropdown" aria-expanded="false">Alpha Craft</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                  <li><a class="dropdown-item" href="#">Careers</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
+      <a class="navbar-brand nav-custom" href="#"><div><img src="./images/logo.png" class="logo"  alt="T E logo"></div></a>
+
+      <button class="navbar-toggler nav-custom enl-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon nav-custom enl-lines"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0 nav-custom">
+          
+          <li class="nav-item nav-custom mx-3">
+            <a class="nav-link nav-custom nav-text" aria-current="page" href="./index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown nav-custom hide">
+            <a class="nav-link dropdown-toggle nav-custom" href="#" data-bs-toggle="dropdown" aria-expanded="false">Contractors</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./search.html">Find Contractors</a></li>
+              <li><a class="dropdown-item" href="./newquote.html">Get a Quote</a></li>
             </ul>
-            
-          </div>
-        </div>
-      </nav>
+          </li>
+
+          <li >
+            <a class="nav-link nav-text" href="./projects.html">Pro Services</a>
+          </li>
+
+          <li class="nav-item dropdown nav-custom hide">
+            <a class="nav-link dropdown-toggle nav-custom" href="#" data-bs-toggle="dropdown" aria-expanded="false">Alpha Craft</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              <li><a class="dropdown-item" href="#">Careers</a></li>
+              <li><a class="dropdown-item" href="./login.html">Log-in</a></li>
+              <li><a class="dropdown-item" href="./signup.html">Sign-up</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        
+      </div>
+
+      <div class="nav-item col-md-3 text-end nav-buttons">
+        <a href="./login.html"><button type="button" class="btn btn-secondary me-2 ">Login</button></a>
+        <a href="./signup.html"><button type="button" class="btn btn-primary">Sign-up</button></a>
+      </div>
+
+    </div>
+
+</nav>
 
       <div class="container">
         <main>
@@ -82,54 +96,7 @@
           </div>
       
           <div class="row g-5">
-            <!-- <div class="col-md-5 col-lg-4 order-md-last">
-              <h4 class="d-flex justify-content-between align-items-center mb-3">
-                <span class="text-primary">Your cart</span>
-                <span class="badge bg-primary rounded-pill">3</span>
-              </h4>
-              <ul class="list-group mb-3">
-                <li class="list-group-item d-flex justify-content-between lh-sm">
-                  <div>
-                    <h6 class="my-0">Product name</h6>
-                    <small class="text-body-secondary">Brief description</small>
-                  </div>
-                  <span class="text-body-secondary">$12</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between lh-sm">
-                  <div>
-                    <h6 class="my-0">Second product</h6>
-                    <small class="text-body-secondary">Brief description</small>
-                  </div>
-                  <span class="text-body-secondary">$8</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between lh-sm">
-                  <div>
-                    <h6 class="my-0">Third item</h6>
-                    <small class="text-body-secondary">Brief description</small>
-                  </div>
-                  <span class="text-body-secondary">$5</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
-                  <div class="text-success">
-                    <h6 class="my-0">Promo code</h6>
-                    <small>EXAMPLECODE</small>
-                  </div>
-                  <span class="text-success">−$5</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between">
-                  <span>Total (USD)</span>
-                  <strong>$20</strong>
-                </li>
-              </ul>
-      
-              <form class="card p-2">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Promo code">
-                  <button type="submit" class="btn btn-secondary">Redeem</button>
-                </div>
-              </form>
-            </div> -->
-
+            
 
             <div class="col-md-7 col-lg-8">
               <h4 class="mb-3">Company Information</h4>
